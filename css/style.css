@@ -189,7 +189,7 @@ first div in the grid  and place it in the grid. */
 }
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
-.text.block {
+.text-block {
   align-self: center;
   justify-self: center;
   text-align: center;
@@ -202,7 +202,7 @@ first div in the grid  and place it in the grid. */
 @media screen and (min-width: 800px){
 
   nav{
-  padding: 30px 0px;
+  padding: 30px 0px 30px 0px;
   text-align: right;
   }
   /* Step 10: Write the selector/rule property to update the .container class */
@@ -217,7 +217,7 @@ first div in the grid  and place it in the grid. */
 }
 
 .method, .contact, .about-image, .clients-image{
-  grid-column: 3 / span 2;
+  grid-column: 2 / span 2;
 }
 
  /* Step 13:Write the selector/rule property to update the .text-block class */
